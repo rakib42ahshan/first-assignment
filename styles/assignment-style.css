@@ -90,12 +90,13 @@
 }
 
 /* plans section */
-.plans {
+.plans,
+.extra-plan {
     margin: 130px 230px;
     text-align: center;
 }
 
-.plans>h2 {
+.plan-header {
     padding-bottom: 50px;
     font-weight: 700;
     font-size: 40px;
@@ -107,12 +108,49 @@
     justify-content: space-between;
 }
 
-.individual-plan>h3 {
+.individual-plan {
     font-weight: 700;
     font-size: 30px;
 }
 
-.individual-plan>p {
+.individual-plan {
     font-weight: 500;
     font-size: 25px;
+}
+
+/* gradiant task */
+
+.gradiant {
+    background-image: url('../images/watch.png'), url('../images/gradient3.png');
+    background-blend-mode: lighten, darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 78%;
+    height: 35vh;
+    margin: 130px 230px 40px 230px;
+    border: none;
+    border-radius: 8px;
+}
+
+.grad-text {
+    text-align: left;
+    padding: 50px 64px;
+}
+
+.grad-text>h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.second-btn {
+    color: #F15B22;
+    margin-top: 45px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 36px;
+    border: none;
+    border-radius: 5%;
 }
