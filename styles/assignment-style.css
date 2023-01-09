@@ -16,8 +16,8 @@
 
 /* banner element sizeing */
 .banner-container {
-    padding-top: 216px;
-    padding-right: 230px;
+    padding-top: 180px;
+    padding-right: 100px;
     text-align: right;
 }
 
@@ -48,23 +48,23 @@
 /* failure section */
 .failure {
     display: flex;
-    margin: 130px 322px 130px 206px;
+    margin: 130px 100px;
     align-items: center;
     align-content: space-around;
 }
 
 .failure-writing,
 .tick-para {
-    padding-left: 260px;
+    padding-left: 180px;
 }
 
 .failure-writing h2 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 34px;
     margin-bottom: 24px;
 }
 
-.failure-writing p {
+.failure-writing>p {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 16px;
@@ -92,7 +92,7 @@
 /* plans section */
 .plans,
 .extra-plan {
-    margin: 130px 230px;
+    margin: 130px 180px;
     text-align: center;
 }
 
@@ -105,12 +105,12 @@
 .plan-content {
     display: flex;
     margin-top: 50px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .individual-plan {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .individual-plan {
@@ -126,31 +126,69 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 78%;
+    width: 82%;
     height: 35vh;
-    margin: 130px 230px 40px 230px;
+    margin: 130px 100px 40px 130px;
     border: none;
     border-radius: 8px;
 }
 
 .grad-text {
     text-align: left;
-    padding: 50px 64px;
+    padding: 40px 64px;
 }
 
 .grad-text>h2 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 32px;
     color: white;
 }
 
 .second-btn {
     color: #F15B22;
-    margin-top: 45px;
+    margin-top: 25px;
     font-weight: 600;
     font-size: 20px;
     text-align: center;
     padding: 20px 36px;
     border: none;
     border-radius: 5%;
+}
+
+/* footer task */
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-h {
+    padding-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.future>P {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hyper{
+    margin: 30px 0px;
+    text-decoration: none;
+}
+#inmail{
+    color: black;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px 55px 20px 0px;
+    
+}
+::placeholder{
+    color: white;
 }
