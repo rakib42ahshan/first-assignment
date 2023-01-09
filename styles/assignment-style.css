@@ -74,16 +74,45 @@
 .tick-para {
     display: flex;
 }
-.tick-para ul{
+
+.tick-para ul {
     padding-left: 0px;
 }
-.tick-para > ul > li{
+
+.tick-para>ul>li {
     list-style: none;
     margin-left: none;
     margin-bottom: 8px;
 }
-.tick-para > ul > li> i{
+
+.tick-para>ul>li>i {
     padding-right: 20px;
 }
 
 /* plans section */
+.plans {
+    margin: 130px 230px;
+    text-align: center;
+}
+
+.plans>h2 {
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-content {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.individual-plan>h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.individual-plan>p {
+    font-weight: 500;
+    font-size: 25px;
+}
